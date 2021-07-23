@@ -1,0 +1,40 @@
+.ls-intro-heading-img {
+    margin: 1rem 0;
+
+    .ls-intro-heading-holder {
+
+        .ls-img-holder {
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .ls-img-holder:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+@media screen and (min-width:768px){
+    .ls-intro-heading-img {
+
+        .ls-intro-heading-holder {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1rem;
+            
+            .ls-img-holder{
+                margin-bottom: 0;
+            }
+
+            .ls-img-1 {
+                grid-column: 1 / 3;
+            }
+
+          
+    
+            
+        }
+    }
+}

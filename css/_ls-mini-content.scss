@@ -1,0 +1,96 @@
+.ls-mini-content {
+    margin: 2rem 0;
+    font-family: 'Roboto', sans-serif;
+
+    .ls-mini-content-holder {
+
+        .ls-caption {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            color: #25A94C;
+            font-weight: 700;
+
+            .ls-caption-border {
+                display: block;
+                height: 2px;
+                width: 30%;
+                margin: 0.3rem auto 1rem;
+                background-color: #FF9900;
+            }
+        }
+
+        .ls-content {
+            font-size: 0.875rem;
+            font-weight: 300;
+        }
+
+        .ls-content-btn {
+            text-align: center;
+            vertical-align: middle;
+            margin-top: 1rem;
+
+            button {
+
+                img {
+                    width: 8%;
+                }
+
+                border: none;
+                outline: none;
+                text-transform: uppercase;
+                color: #fff;
+                background-color: #25A94C;
+                padding: 0.5rem 0.8rem;
+                font-size: 0.9rem;
+                vertical-align: middle;
+                border-radius: 81px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                border: 1px solid #25A94C;
+                background-color: #fff;
+                color: #25A94C; 
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ls-mini-content {
+     
+        .ls-mini-content-holder {
+    
+            .ls-caption {
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 1.5rem;
+                color: #25A94C;
+                font-weight: 700;
+    
+                .ls-caption-border {
+                    display: block;
+                    height: 2px;
+                    width: 10%;
+                    margin: 0.3rem auto 1rem;
+                    background-color: #FF9900;
+                }
+            }
+    
+            .ls-content {
+                font-size: 0.875rem;
+                font-weight: 300;
+            }
+    
+            .ls-content-btn {
+                margin-top: 1.5rem;
+    
+                button {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+

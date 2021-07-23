@@ -1,0 +1,19 @@
+.ls-producing-text {
+    margin: 1rem 0;
+
+    .ls-text-holder {
+        text-align: left;
+
+        a {
+            color: #25A94C;
+            font-size: 0.875rem;
+            font-weight: 300;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ls-producing-text {
+        margin: 2rem 0;
+    }
+}

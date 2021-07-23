@@ -1,0 +1,97 @@
+.ls-slide-content {
+    background: none;
+    padding: 0;
+    position: relative;
+    margin: 2rem 0;
+
+    .ls-slide-content-holder {
+
+        .ls-slide-details {
+
+            .swiper-container {
+                
+
+                .swiper-wrapper {
+
+                    .swiper-slide {
+
+                        iframe {
+                            width: 100%;
+                        }
+
+                        p {
+                            text-align: center;
+                            color: #565656;
+                            font-size: 0.875rem;
+                        }
+                    }
+                }
+
+                .btn {
+                    position: absolute;
+                    top: 30%;
+                    z-index: 99;
+                    color: #fff;
+                    border: 1px solid #E5E5E5;
+                    padding: 0.2rem;
+                }
+
+                .btn-next {
+                    right: 0%;
+                }
+
+                .btn-prev {
+                    left: 0%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ls-slide-content {
+       
+    
+        .ls-slide-content-holder {
+    
+            .ls-slide-details {
+    
+                .swiper-container {
+    
+                    .swiper-wrapper {
+    
+                        .swiper-slide {
+    
+                            iframe {
+                                width: 100%;
+                            }
+    
+                            p {
+                                text-align: center;
+                                color: #565656;
+                                font-size: 0.875rem;
+                            }
+                        }
+                    }
+    
+                    .btn {
+                        position: absolute;
+                        top: 30%;
+                        z-index: 99;
+                        color: #000;
+                        border: 1px solid #E5E5E5;
+                        padding: 0.2rem;
+                    }
+    
+                    .btn-next {
+                        right: 0%;
+                    }
+    
+                    .btn-prev {
+                        left: 0%;
+                    }
+                }
+            }
+        }
+    }
+}

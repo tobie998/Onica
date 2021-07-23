@@ -1,0 +1,220 @@
+/*import file*/
+@import "header.scss";
+@import "ls_banner-1";
+@import "ls-mini-content";
+@import "ls-content-1";
+@import "ls-content-2";
+@import "ls-content-3";
+@import "ls-slide-content";
+@import "ls-pre-footer";
+@import "ls-site-footer";
+
+//Import file product page
+@import "./product-scss/ls-product-banner";
+@import "./product-scss/ls-product-description";
+@import "./product-scss/ls-product-gallery";
+@import "./product-scss/ls-product-tab";
+@import "./product-scss/ls-product-footer";
+
+//Import file story page
+@import "./story-scss/ls-story-banner";
+@import "./story-scss/ls-str-introduction";
+@import "./story-scss/ls-str-grid";
+
+//Import file introduction page
+@import "./introduction-scss/ls-intro-heading-img";
+@import "./introduction-scss/ls-intro-main-content";
+@import "./introduction-scss/ls-intro-banner-1";
+@import "./introduction-scss/ls-intro-about";
+@import "./introduction-scss/ls-intro-partner";
+
+//Import file brand's story page
+@import "./brand-story-scss/ls-brand-story-banner";
+@import "./brand-story-scss/ls-brand-story-content";
+@import "./brand-story-scss/ls-brand-story-content-1";
+@import "./brand-story-scss/ls-brand-story-text";
+
+//Import file research page
+@import "./research-scss/ls-research-heading";
+@import "./research-scss/ls-research-content";
+@import "./research-scss/ls-research-text";
+@import "./research-scss/ls-research-last-content";
+
+//Import file ingredients page
+@import "./ingredients-scss/ls-ingredients-content-1";
+@import "./ingredients-scss/ls-ingredients-content-2";
+
+//Import file producing page
+@import "./producing-scss/ls-producing-heading";
+@import "./producing-scss/ls-producing-content";
+@import "./producing-scss/ls-producing-text";
+
+//Import file q&a page
+@import "./question-and-answer-scss/ls-question-content";
+
+//Import file contact page 
+@import "./contact-scss/ls-contact-content";
+
+//Import file retail system page
+@import "./retails-system-scss/ls-retail-content";
+
+//Import file news page 
+@import "./news-scss/ls-news-content";
+@import "./news-scss/ls-news-details";
+@import "./news-scss/ls-details-related";
+
+
+
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto-Regular.woff2");
+}
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("../fonts/Roboto-Medium.woff2");
+}
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("../fonts/Roboto-Light.woff2");
+}
+@font-face {
+    font-family: "Roboto-Black";
+    src: url("../fonts/Roboto-Black.woff2");
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../fonts/Roboto-Bold.woff2");
+}
+/*reset css*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block;
+}
+a {
+    text-decoration: none !important;
+    color: #4b5056;
+}
+ul, ol {
+    list-style-type: none;
+}
+nav ul {
+    list-style: none;
+}
+b sub, i sub {
+    bottom: 6px;
+    right: 2px;
+}
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+b sub, i sub {
+    bottom: 6px;
+    right: 2px;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+body {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 16px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+}
+/*common css*/
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #e9e9e9;
+}
+/*header*/
+
+/*end header*/

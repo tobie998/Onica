@@ -1,0 +1,63 @@
+.ls-details-related {
+    margin: 1rem 0;
+
+    .ls-related-holder {
+
+        .ls-related-heading {
+            text-transform: uppercase;
+            font-size: 0.9375rem;
+            font-weight: 600;
+            padding-left: 0.5rem;
+            border-left: 2px solid #25A94C;
+        }
+
+        .ls-related-link {
+
+            ul {
+                list-style-type: disc;
+
+                li {
+                    margin-left: 1rem;
+
+                    a {
+                        color: #25A94C;
+                        font-size: 0.9375rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .ls-details-related {
+        margin-bottom: 4rem;
+    
+        .ls-related-holder {
+    
+            .ls-related-heading {
+                text-transform: uppercase;
+                font-size: 0.9375rem;
+                font-weight: 600;
+                padding-left: 0.5rem;
+                border-left: 2px solid #25A94C;
+            }
+    
+            .ls-related-link {
+    
+                ul {
+                    list-style-type: disc;
+    
+                    li {
+                        margin-left: 1rem;
+    
+                        a {
+                            color: #25A94C;
+                            font-size: 0.9375rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

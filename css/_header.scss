@@ -1,0 +1,215 @@
+header {
+
+
+    .ls-pre-header {
+       
+
+        .ls-pre-header-holder {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .ls-pre-header-search {
+               display: none;
+            }
+
+            .ls-logo-holder {
+                flex: 0 0 50%;
+
+                img {
+                    width: 80%;
+                }
+            }
+
+            .ls-contact {
+                display: flex;
+                height: 2.8125rem;
+
+                .icon-holder {
+                    background-color: #015E53;
+                    padding: 0.5rem;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .contact-details {
+                    padding: 0.5rem;
+                    line-height: 1rem;
+                    background-color: #25A94C;
+                    color: #fff;
+                    text-align: center;
+                    font-weight: 700;
+
+                    span {
+                        text-align: right;
+                        font-size: 0.6rem;
+                        display: block;
+                    }
+
+                    .number {
+                        font-size: 0.875rem;
+                    }
+                }
+            }
+        }
+
+        .border {
+            display: block;
+            height: 1px;
+            width: 100%;
+            background-color: #e5e5e5;
+            margin: 0 auto;
+        }
+    }
+
+    .navbar {
+        padding-bottom: 0;
+
+        .collapse {
+            text-align: left;
+
+            ul {
+                margin: 0 auto;
+
+                li {
+
+                    .nav-link {
+                        text-transform: uppercase;
+                        color: #565656;
+                    }
+
+                    .nav-link:hover {
+                        border-bottom: 2px solid #25A94C;
+                        color: #25A94C;
+                    }
+
+                    .active {
+                        color: #25A94C;
+                        border-bottom: 2px solid #25A94C;
+                    }
+                }
+            }
+        }
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        color: #25A94C;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {
+    header {
+
+        .ls-pre-header {
+    
+            .ls-pre-header-holder {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+    
+                .ls-pre-header-search {
+                   display: block;
+                   position: relative;
+                   color: #565656;
+                   
+                    input {
+                        padding: 0.5rem;
+                        font-size: 0.875rem;
+                    }
+                    
+
+                   i {
+                       position: absolute;
+                       right: 0;
+                       top: 28%;
+                       transform: rotateY(180deg);
+                       padding: 0 0.5rem;
+                   }
+                }
+    
+                .ls-logo-holder {
+                    flex: none;
+
+                    img {
+                        width: 80%;
+                    }
+                }
+    
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    header {
+
+        .ls-pre-header {
+    
+            .ls-pre-header-holder {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+    
+                .ls-pre-header-search {
+                   display: block;
+                   position: relative;
+                   color: #565656;
+                   font-size: 1rem;
+                   
+                    input {
+                        padding: 0.5rem;
+                        font-size: 1rem;
+                    }
+                    
+
+                   i {
+                       position: absolute;
+                       right: 0;
+                       top: 30%;
+                       transform: rotateY(180deg);
+                       padding: 0 0.5rem;
+                   }
+                }
+    
+                .ls-logo-holder {
+                    flex: none;
+
+                    img {
+                        width: 55%;
+                    }
+                }
+                
+                .ls-contact {
+                    vertical-align: middle;
+
+                    .icon-holder {
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .contact-details {
+                        padding: 0.5rem 1.2rem;
+
+                        span {
+                            font-size: 0.7rem;
+                        }
+
+                        .number {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+
+                .ls-contact, .ls-pre-header-search {
+                    margin-top: 3rem;
+                }
+            }
+        }
+    }
+}

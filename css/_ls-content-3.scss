@@ -1,0 +1,51 @@
+.ls-content-3 {
+    background-color: #fff;
+    margin: 2rem 0;
+
+    .ls-content-3-holder {
+
+        .ls-content-3-main {
+
+            .ls-img-holder {
+
+               img {
+                   width: 100%;
+                }
+            }
+
+            .ls-img-holder:not(:last-child) {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ls-content-3 {
+    
+        .ls-content-3-holder {
+    
+            .ls-content-3-main {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                grid-column-gap: 2rem;
+    
+                .ls-img-holder {
+                    cursor: pointer;
+
+                    img {
+                        width: 150%;
+                    }
+
+                    img:hover {
+                        transform: scale(1.05);
+                    }
+                }
+
+                .ls-img-holder:not(:last-child) {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

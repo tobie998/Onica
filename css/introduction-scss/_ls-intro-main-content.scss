@@ -1,0 +1,163 @@
+.ls-intro-main-content {
+    margin: 1rem 0;
+
+    .ls-intro-main-holder {
+
+        .ls-intro-main-1 {
+
+            .ls-intro-1-left {
+                background: url(../../images/common/intro-main-content-img.png) no-repeat;
+                background-size: cover;
+                padding: 2rem 0;
+                margin-bottom: 1rem;
+
+                h4 {
+                    text-align: center;
+                    font-size: 10rem;
+                    font-weight: 900;
+                    color: #fff;
+                }
+
+                .ls-description {
+                    padding: 0.5rem 0.8rem;
+                    font-size: 1rem;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    background: #BE2328;
+                    color: #fff;
+                    width: 50%;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+            }
+
+            .ls-intro-1-right {
+
+                h5 {
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #25A94C;
+                }
+
+                .ls-intro-border {
+                    display: block;
+                    height: 2px;
+                    width: 40%;
+                    background: #FF9900;
+                    margin: 0.3rem 0 1rem;
+                }
+
+                p {
+                    font-size: 0.9375rem;
+                    font-weight: 300;
+                    line-height: 1.5rem;
+                    margin-bottom: 0.5rem;
+                }
+            }
+        }
+
+        .ls-intro-main-2 {
+
+            p {
+                font-size: 0.9375rem;
+                font-weight: 300;
+                line-height: 1.5rem;
+                margin-bottom: 0.5rem;
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ls-intro-main-content {
+
+        .ls-intro-main-holder {
+    
+            .ls-intro-main-1 {
+                display: flex;
+                margin-bottom: 1rem;
+
+                .ls-intro-1-left {
+                    flex: 0 0 40%;
+                    padding: 2rem 0;
+                    margin: 0 1rem 0rem 0;
+    
+                    h4 {
+                        text-align: center;
+                        font-size: 10rem;
+                        color: #fff;
+                        margin-top: 2rem;
+                    }
+    
+                    .ls-description {
+                        padding: 0.5rem 0.8rem;
+                        font-size: 1rem;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        background: #BE2328;
+                        color: #fff;
+                        width: 50%;
+                        text-align: center;
+                        margin: 0 auto;
+                    }
+                }
+    
+                .ls-intro-1-right {
+                    padding: 2rem 0;
+
+                    h5 {
+                        font-size: 1.2rem;
+                    }
+    
+                    .ls-intro-border {
+                        width: 20%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .ls-intro-main-content {
+        margin: 2rem 0;
+
+        .ls-intro-main-holder {
+    
+            .ls-intro-main-1 {
+                display: flex;
+                margin-bottom: 2rem;
+
+                .ls-intro-1-left {
+                    flex: 0 0 40%;
+                    padding: 2rem 0 3rem;
+                    margin: 0 1rem 0rem 0;
+    
+                    h4 {
+                        font-size: 15rem;
+                        color: #fff;
+                        margin-top: 1rem;
+                    }
+    
+                    .ls-description {
+                        font-size: 1.25rem;
+                    }
+                }
+    
+                .ls-intro-1-right {
+                    padding: 3rem 0 2rem;
+
+                    h5 {
+                        font-size: 2.25rem;
+                    }
+    
+                    .ls-intro-border {
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    }
+}

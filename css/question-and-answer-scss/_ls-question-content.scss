@@ -1,0 +1,535 @@
+.ls-question-content {
+    margin: 1rem 0;
+
+    .ls-content-holder {
+
+        .ls-content-left {
+            padding: 2rem;
+            background-color: #FFF9F0;
+
+            .ls-left-heading {
+                text-transform: uppercase;
+                color: #565656;
+                font-size: 1.25rem;
+                font-weight: 700;
+                text-align: left;
+                margin-bottom: 1rem;
+            }
+
+            .ls-left-type {
+               
+                .ls-type-item {
+                    display: block;
+                    color: #565656;
+                    font-size: 0.9375rem;
+                    font-weight: 300;
+                    padding: 0.5rem 0;
+
+                    img {
+                        width: 5%;
+                        margin-top: -0.2rem;
+                    }
+                }
+
+                .ls-type-item:not(:last-child) {
+                    border-bottom: 0.5px solid #e5e5e5;
+                }
+
+                .ls-type-active {
+                    color: #25A94C;
+                    font-weight: 600;
+                }
+
+                .ls-type-item:hover {
+                    color: #25A94C;
+                }
+            }
+        }
+
+        .ls-content-right {
+            margin: 1rem 0;
+
+            .ls-right-heading {
+
+                h5 {
+                    text-align: center;
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #25A94C;
+                }
+    
+                .ls-heading-border {
+                    display: block;
+                    height: 2px;
+                    width: 20%;
+                    background: #FF9900;
+                    margin: 0.3rem auto 1rem;      
+                }
+            }
+
+            .accordion {
+
+                .card {
+                    border: none;
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+                    background: #fff;
+                    margin: 1rem 0;
+
+                    .card-header {
+                        border: none;
+                        background: #fff;
+                        
+                        .card-link {
+                            color: #565656;
+                            font-size: 0.9375rem;
+                            font-weight: 600;
+
+                            i {
+                                color: #565656;
+                                float: right;
+                            }
+                        }
+
+                        .card-link-active {
+                            color: #25A94C;
+
+                            i {
+                                color: #25A94C;
+                            }
+                        }
+                    }
+
+                    .collapse {
+                        padding: 0.75rem 1.25rem;
+
+                        .card-body {
+                            padding: 1.25rem;
+                            background: #F9F9F9;
+                            font-size: 0.9375rem;
+                            line-height: 1.5rem;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+
+            .ls-right-experience {
+                margin-bottom: 2rem;
+
+                .ls-content-item {
+                    margin-bottom: 1.2rem;
+
+                    .ls-img-holder {
+                        
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .ls-content-details {
+                        margin-top: 0.5rem;
+
+                        .ls-details-date {
+                            font-size: 0.75rem;
+                            color: #565656;
+                            font-weight: 300;
+                        }
+
+                        .ls-details-title {
+                            font-size: 0.75rem;
+                            color: #000;
+                            font-weight: 600;
+                        }
+
+                        .ls-more {
+                            display: block;
+                            font-size: 0.75rem;
+                            color: #25A94C;
+                            font-style: italic;
+                            text-decoration: underline !important;
+                        }
+                    }
+                }
+            }
+
+            .ls-right-document {
+
+                .ls-document-item {
+
+                    p {
+                        font-size: 0.9375rem;
+                        margin-bottom: 1rem;
+                        color: #565656;
+                        font-size: 600;
+
+                        img {
+                            float: right;
+                            width: 4%;
+                            margin-top: 0.2rem;
+                        }
+                    }
+                }
+
+                .ls-document-item:hover {
+                    
+                    p {
+                        color: #25A94C;
+                    }
+                }
+            }
+
+            .ls-right-pagination {
+                display: flex;
+                text-align: center;
+                justify-content: center;
+
+                .ls-pagination-item {
+                    margin: 0 0.5rem;
+                    color: #565656;
+                    font-style: normal;
+                    font-size: 1rem;
+                    font-weight: 700;
+                    padding: 0.2rem 1rem;
+                    transform: skew(-15deg);
+                    background: rgba(37, 169, 76, 0.15);
+
+                    p {
+                        transform: skew(15deg);
+                    }
+                }
+
+                .ls-pagination-active {
+                    background: #25A94C;
+                    
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ls-question-content {
+        margin: 2rem;
+    
+        .ls-content-holder {
+            display: flex;
+
+            .ls-content-left {
+                padding: 2rem 1.5rem;
+                height: 14rem;
+                margin-right: 0.8rem;
+                flex: 0 0 30%;
+    
+                .ls-left-heading {
+                    text-transform: uppercase;
+                    color: #565656;
+                    font-size: 1.25rem;
+                    font-weight: 700;
+                    text-align: left;
+                    margin-bottom: 1rem;
+                }
+    
+                .ls-left-type {
+                   
+                    .ls-type-item {
+                        display: block;
+                        color: #565656;
+                        font-size: 0.9375rem;
+                        font-weight: 300;
+                        padding: 0.5rem 0;
+    
+                        img {
+                            width: 7%;
+                            margin-top: -0.2rem;
+                        }
+                    }
+
+                    .ls-type-active {
+                        color: #25A94C;
+                        font-weight: 600;
+                    }
+                }
+            }
+    
+            .ls-content-right {
+                margin: 0;
+                flex: 0 0 73%;
+    
+                .ls-right-heading {
+                    text-align: left;
+    
+                    h5 {
+                        text-align: left;
+                        font-size: 1.2rem;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        color: #25A94C;
+                    }
+        
+                    .ls-heading-border {
+                        width: 10%;
+                        margin: 0.3rem 0 1rem;      
+                    }
+                }
+    
+                .accordion {
+    
+                    .card {
+                        border: none;
+                        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+                        background: #fff;
+                        margin: 1rem 0;
+    
+                        .card-header {
+                            border: none;
+                            background: #fff;
+                            
+                            .card-link {
+                                color: #565656;
+                                font-size: 0.9375rem;
+                                font-weight: 600;
+    
+                                i {
+                                    color: #565656;
+                                    float: right;
+                                }
+                            }
+    
+                            .card-link-active {
+                                color: #25A94C;
+    
+                                i {
+                                    color: #25A94C;
+                                }
+                            }
+                        }
+    
+                        .collapse {
+                            padding: 1.25rem;
+    
+                            .card-body {
+                                padding: 1.25rem;
+                                background: #F9F9F9;
+                                font-size: 0.9375rem;
+                                line-height: 1.5rem;
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+
+                .ls-right-experience {
+                    margin-bottom: 2rem;
+    
+                    .ls-content-item {
+                        margin-bottom: 1.2rem;
+                        display: flex;
+                        align-items: center;
+    
+                        .ls-img-holder {
+                            margin-right: 0.8rem;
+                            
+                            img {
+                                width: 100%;
+                            }
+                        }
+    
+                        .ls-content-details {
+                            margin-top: 0.5rem;
+    
+                            .ls-details-date {
+                                font-size: 0.75rem;
+                                color: #565656;
+                                font-weight: 300;
+                            }
+    
+                            .ls-details-title {
+                                font-size: 0.75rem;
+                                color: #000;
+                                font-weight: 600;
+                            }
+    
+                            .ls-more {
+                                display: block;
+                                font-size: 0.75rem;
+                                color: #25A94C;
+                                font-style: italic;
+                                text-decoration: underline !important;
+                                margin-top: 0.5rem;
+                            }
+                        }
+                    }
+                }
+
+                .ls-right-document {
+
+                    .ls-document-item {
+    
+                        p {
+                            font-size: 0.9375rem;
+                            margin-bottom: 1rem;
+    
+                            img {
+                                float: right;
+                                width: 3%;
+                                margin-top: 0.2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .ls-question-content {
+        margin: 3rem 0;
+    
+        .ls-content-holder {
+            display: flex;
+
+            .ls-content-left {
+                padding: 2rem;
+                margin-right: 1rem;
+                flex: 0 0 25%;
+    
+                .ls-left-type {
+                   
+                    .ls-type-item {
+                        display: block;
+                        color: #565656;
+                        font-size: 0.9375rem;
+                        font-weight: 300;
+                        padding: 0.5rem 0;
+    
+                        img {
+                            width: 7%;
+                            margin-top: -0.2rem;
+                        }
+                    }
+
+                    .ls-type-active {
+                        color: #25A94C;
+                        font-weight: 600;
+                    }
+                }
+            }
+    
+            .ls-content-right {
+                flex: 0 0 73%;
+                margin: 0;
+    
+                .ls-right-heading {
+                    text-align: left;
+    
+                    h5 {
+                        text-align: left;
+                        font-size: 2.25rem;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        color: #25A94C;
+                    }
+        
+                    .ls-heading-border {
+                        width: 10%;
+                        margin: 0.3rem 0 1rem;      
+                    }
+                }
+    
+                .accordion {
+    
+                    .card {
+                        border: none;
+                        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+                        background: #fff;
+                        margin: 1.5rem 0;
+    
+                        .card-header {
+                            border: none;
+                            background: #fff;
+                            
+                            .card-link {
+                                color: #565656;
+                                font-size: 0.9375rem;
+                                font-weight: 600;
+    
+                                i {
+                                    color: #565656;
+                                    float: right;
+                                }
+                            }
+    
+                            .card-link-active {
+                                color: #25A94C;
+    
+                                i {
+                                    color: #25A94C;
+                                }
+                            }
+                        }
+    
+                        .collapse {
+                            padding: 1.25rem;
+    
+                            .card-body {
+                                padding: 1.25rem;
+                                background: #F9F9F9;
+                                font-size: 0.9375rem;
+                                line-height: 1.5rem;
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+
+                .ls-right-experience {
+                    margin-bottom: 2rem;
+    
+                    .ls-content-item {
+                        margin-bottom: 1.2rem;
+                        display: flex;
+                        align-items: center;
+    
+                        .ls-img-holder {
+                            margin-right: 1.2rem;
+                            
+                            img {
+                                width: 100%;
+                            }
+                        }
+    
+                        .ls-content-details {
+                            margin-top: 0.5rem;
+    
+                            .ls-details-date {
+                                font-size: 0.75rem;
+                                color: #565656;
+                                font-weight: 300;
+                            }
+    
+                            .ls-details-title {
+                                font-size: 0.75rem;
+                                color: #000;
+                                font-weight: 600;
+                            }
+    
+                            .ls-more {
+                                display: block;
+                                font-size: 0.75rem;
+                                color: #25A94C;
+                                font-style: italic;
+                                text-decoration: underline !important;
+                                margin-top: 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

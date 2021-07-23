@@ -1,0 +1,211 @@
+.ls-product-tab {
+
+    .ls-product-tab-holder {
+        padding-bottom: 2rem;
+        border-bottom: 2px dashed #565656;
+
+        .ls-list-holder {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+
+            li {
+                border: 1px solid #e5e5e5;
+                border-collapse: collapse;
+
+                .nav-link {
+                    font-size: 0.875rem;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+
+                a:hover {
+                    color: #25A94C;
+                }
+    
+                .active {
+                    color: #25A94C;
+                    border-bottom: 3px solid #25A94C;
+                }
+            }
+        }
+
+        .ls-tab-content {
+            border: 1px solid #e5e5e5;
+            padding: 0.8rem 0.5rem;
+            height: 500px;
+
+
+            .ls-tab-item {
+
+                h5 {
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: #25a94c;
+                    font-size: 0.8rem;
+                    font-weight: 700;
+
+                    span {
+                        color: #000;
+                        display: block;
+                    }
+                }
+
+                .second-h5 {
+                    margin-top: 1rem;
+                }
+
+                p {
+                    font-size: 0.8rem;
+                    margin: 0.2rem 0;
+                    font-weight: 300;
+                }
+
+                ul {
+                    list-style-type: disc;
+                    font-size: 0.8rem;
+                    margin-bottom: 0.3rem;
+                    font-weight: 300;
+
+                    li {
+                        margin-left: 1rem;
+                    }
+                }
+
+                .producing-content {
+                    margin-bottom: 2rem;
+
+                    span {
+                        display: block;
+                    }
+                }
+
+                .howtouse-details {
+                    margin: 1rem 1rem 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .ls-product-tab {
+
+        .ls-product-tab-holder {
+    
+            .ls-tab-content {
+    
+                .ls-tab-item {
+    
+                    h5 {
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        color: #25a94c;
+                        font-size: 0.9375rem;
+                        font-weight: 700;
+    
+                        span {
+                            color: #000;
+                            display: block;
+                        }
+                    }
+    
+                    p {
+                        font-size: 0.875rem;
+                        margin: 0.2rem 0;
+                        font-weight: 300;
+                    }
+    
+                    ul {
+                        list-style-type: disc;
+                        font-size: 0.875rem;
+                        margin-bottom: 0.3rem;
+                        font-weight: 300;
+    
+                        li {
+                            margin-left: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ls-product-tab {
+
+        .ls-product-tab-holder {
+    
+            .ls-list-holder {
+
+               li {
+                
+                .nav-link {
+                    font-size: 0.8rem;
+                }
+               }
+            }
+
+            .ls-tab-content {
+                padding: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .ls-product-tab {
+
+        .ls-product-tab-holder {
+            padding-bottom: 4rem;
+
+            .ls-list-holder {
+
+                li {
+                
+                    .nav-link {
+                        font-size: 1.1rem;
+                    }   
+                }
+            }
+
+            .ls-tab-content {
+                padding: 2rem 3rem;
+                height: 570px;
+
+                .ls-tab-item {
+
+                    h5 {
+                        font-size: 1.25rem;
+                        line-height: 1.8rem;
+                    }
+
+                    .second-h5 {
+                        margin-top: 2rem;
+                    }
+
+                    p {
+                        font-size: 0.9375rem;
+                        margin: 0.5rem 0;
+
+                        li {
+                            margin: 0.8rem 0;
+                        }
+                    }
+
+                    .producing-content {
+                        font-size: 0.9375rem;
+                        font-weight: 300;
+                    }
+
+                    .howtouse-details {
+                        font-size: 0.9375rem;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+}
+

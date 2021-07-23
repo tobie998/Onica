@@ -1,0 +1,39 @@
+.ls-product-description {
+
+    .ls-product-description-holder {
+
+        .ls-description-text {
+            font-size: 0.875rem;
+            text-align: center;
+            color: #565656;
+            font-weight: 300;
+            margin-top: 0.3rem;
+        }
+
+        .ls-description-border {
+            display: block;
+            height: 1px;
+            width: 100%;
+            background-color: #e5e5e5;
+            margin: 0.5rem 0;
+        }
+
+        .ls-str-border {
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ls-product-description {
+
+        .ls-product-description-holder {
+    
+            .ls-description-text {
+                font-size: 0.75rem;
+                margin: 0.5rem 0;
+            }
+
+        }
+    }
+}

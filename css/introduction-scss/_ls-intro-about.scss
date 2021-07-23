@@ -1,0 +1,149 @@
+.ls-intro-about {
+    margin: 1rem 0;
+
+    .ls-intro-about-holder {
+
+        .ls-intro-about-1 {
+
+            h5 {
+                font-size: 1.5rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #25A94C;
+            }
+
+            .ls-about-border {
+                display: block;
+                height: 2px;
+                width: 15%;
+                background: #FF9900;
+                margin: 0.3rem 0 1rem;
+            }
+
+            .ls-about-1-content {
+
+                .ls-img-holder {
+                    margin-bottom: 0.5rem;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .ls-text {
+                    p {
+                        font-size: 0.9375rem;
+                        font-weight: 300;
+                        margin-bottom: 0.5rem;
+                    }
+                }
+            }
+        }
+
+        .ls-intro-about-2 {
+            padding: 1rem 0.5rem;
+            border: 1.5px dashed #25A94C;
+            background: rgba(37, 169, 76, 0.1);
+
+            p {
+                font-size: 0.875rem;
+                font-weight: 300;
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ls-intro-about {
+        margin: 2rem 0;
+
+        .ls-intro-about-holder {
+    
+            .ls-intro-about-1 {
+    
+                h5 {
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #25A94C;
+                }
+    
+                .ls-about-border {
+                    display: block;
+                    height: 2px;
+                    width: 15%;
+                    background: #FF9900;
+                    margin: 0.3rem 0 1rem;
+                }
+    
+                .ls-about-1-content {
+                    display: flex;
+                    align-items: center;
+
+                    .ls-img-holder {
+                        flex: 0 0 40%;
+                        margin: 0 1rem 0 0;
+                    }
+    
+                    .ls-text {
+                        margin: 2rem 0;
+
+                        p {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+    
+            .ls-intro-about-2 {
+                padding: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .ls-intro-about {
+        margin: 4rem 0;
+
+        .ls-intro-about-holder {
+    
+            .ls-intro-about-1 {
+                margin-bottom: 2rem;
+
+                h5 {
+                    font-size: 2.25rem;
+                }
+    
+                .ls-about-border {
+                    display: block;
+                    height: 2px;
+                    width: 8%;
+                    background: #FF9900;
+                    margin: 0.3rem 0 1rem;
+                }
+    
+                .ls-about-1-content {
+
+                    .ls-img-holder {
+                        flex: 0 0 35%;
+                        margin: 0 1rem 0 0;
+                    }
+    
+                    .ls-text {
+                        margin: 2rem 0;
+
+                        p {
+                            font-size: 0.9375rem;
+                        }
+                    }
+                }
+            }
+    
+            .ls-intro-about-2 {
+                padding: 2rem;
+            }
+        }
+    }
+}

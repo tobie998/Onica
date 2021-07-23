@@ -1,0 +1,190 @@
+.ls-brand-story-content {
+    margin: 1rem 0;
+
+    .ls-content-holder {
+
+        .ls-content-heading {
+            margin-top: 1rem;
+
+            h5 {
+                font-size: 1.5rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #25A94C;
+
+                span {
+                    display: block;
+                }
+            }
+
+            .ls-heading-border {
+                display: block;
+                height: 2px;
+                width: 20%;
+                background: #FF9900;
+                margin: 0.3rem 0 1rem;
+            }
+        }
+
+        .ls-content-sub-heading {
+
+            .ls-sub-heading-bold {
+                font-size: 1rem;
+                font-weight: 700;
+                color: #565656;
+                margin-bottom: 0.5rem;
+
+                img {
+                    width: 8%;
+                }
+            }
+
+            p {
+                font-size: 0.9375rem;
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        .ls-content-main-1 {
+
+            .ls-content {
+
+                .ls-img-holder {
+                    
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .ls-text {
+                    font-size: 0.9375rem;
+                    line-height: 1.5rem;
+    
+                    h6 {
+                        font-size: 0.9375rem;
+                        font-weight: 700;
+                        margin: 0.5rem 0;
+                    }
+    
+                    p {
+                        font-weight: 300;
+                        margin-bottom: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ls-brand-story-content {
+
+        .ls-content-holder {
+    
+            .ls-content-heading {
+    
+                h5 {
+                    font-size: 1.2rem;
+                }
+    
+                .ls-heading-border {
+                    width: 10%;
+                }
+            }
+    
+            .ls-content-sub-heading {
+    
+                .ls-sub-heading-bold {
+                    font-size: 1.125rem;
+                    vertical-align: middle;
+    
+                    img {
+                        width: 3%;
+                        margin-top: -0.5rem;
+                    }
+                }
+            }
+    
+            .ls-content-main-1 {
+
+                .ls-content {
+                    display: flex;
+                    align-items: center;
+
+                    .ls-text {
+                        line-height: 1.75rem;
+                    }
+                }
+
+                .ls-content:not(:last-child) {
+                    margin-bottom: 1rem;
+                }
+    
+                .ls-content-up {
+
+                    .ls-img-holder {
+                        flex: 0 0 50%;
+                        margin-right: 1rem;
+                    }
+                }
+
+                .ls-content-down {
+
+                    .ls-text {
+                        flex: 0 0 50%;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .ls-brand-story-content {
+
+        .ls-content-holder {
+    
+            .ls-content-heading {
+    
+                h5 {
+                    font-size: 2.25rem;
+                }
+            }
+
+            .ls-content-sub-heading {
+
+                p {
+                    margin-bottom: 1rem;
+                }
+            }
+    
+            .ls-content-main-1 {
+
+                .ls-content:not(:last-child) {
+                    margin-bottom: 0rem;
+                }
+    
+                .ls-content-up {
+
+                    .ls-img-holder {
+                        flex: 0 0 45%;
+                        margin-right: 1.5rem;
+                    }
+
+                    .ls-text {
+                        margin: 1rem 0;
+                    }
+                }
+
+                .ls-content-down {
+                    margin-top: -0.5rem;
+
+                    .ls-text {
+                        margin-right: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+}

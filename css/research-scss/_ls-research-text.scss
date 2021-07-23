@@ -1,0 +1,25 @@
+.ls-research-text {
+    margin: 1rem 0;
+
+    .ls-text-holder {
+
+        .ls-text {
+            
+            a {
+                font-size: 0.875rem;
+                color: #25A94C;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .ls-research-text {
+
+        .ls-text-holder {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

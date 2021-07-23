@@ -1,0 +1,136 @@
+.ls-intro-partner {
+
+    .ls-intro-partner-holder {
+        padding-bottom: 2rem;
+        border-bottom: 2px dashed #565656;
+
+        .ls-partner-heading {
+
+            h5 {
+                font-size: 1.5rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #25A94C;
+                text-align: center;
+            }
+
+            .ls-partner-border {
+                display: block;
+                height: 2px;
+                width: 30%;
+                background: #FF9900;
+                margin: 0.3rem auto 1rem;
+            }
+        }
+
+        .ls-partner-swiper {
+
+            .introSwiper {
+                position: relative;
+                padding: 0 1rem;
+
+                .swiper-wrapper {
+
+                    .swiper-slide {
+
+                        img {
+                            text-align: center;
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .btn {
+                    position: absolute;
+                    top: 40%;
+                    z-index: 99;
+                    color: #000;
+                    border: 1px solid #E5E5E5;
+                    padding: 0.2rem;
+                }
+
+                .btn-next {
+                    right: 0%;
+                }
+
+                .btn-prev {
+                    left: 0%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ls-intro-partner {
+
+        .ls-intro-partner-holder {
+    
+            .ls-partner-heading {
+    
+                h5 {
+                    font-size: 1.2rem;
+                }
+    
+                .ls-partner-border {
+                    width: 10%;
+                }
+            }
+    
+            .ls-partner-swiper {
+    
+                .introSwiper {
+                    position: relative;
+                    padding: 0 1rem;
+    
+                    .swiper-wrapper {
+    
+                        .swiper-slide {
+    
+                            img {
+                                text-align: center;
+                                width: 100%;
+                            }
+                        }
+                    }
+    
+                    .btn {
+                        top: 35%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .ls-intro-partner {
+
+        .ls-intro-partner-holder {
+            padding-bottom: 3rem;
+
+            .ls-partner-heading {
+    
+                h5 {
+                    font-size: 2.25rem;
+                }
+    
+                .ls-partner-border {
+                    width: 15%;
+                }
+            }
+    
+            .ls-partner-swiper {
+    
+                .introSwiper {
+                    position: relative;
+                    padding: 0 1rem;
+    
+                    .btn {
+                        top: 40%;
+                    }
+                }
+            }
+        }
+    }
+}

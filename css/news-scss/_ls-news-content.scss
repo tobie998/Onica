@@ -1,0 +1,335 @@
+.ls-news-content {
+
+    .ls-content-holder {
+
+        .nav-tabs {
+            border: none;
+            display: block;
+
+            .nav-item {
+                margin: 1rem 0;
+              
+                .nav-link {
+                    width: 80%;
+                    text-align: center;
+                    border: none;
+                    text-transform: uppercase;
+                    background: rgba(37, 169, 76, 0.15);
+                    transform: skew(-15deg);
+                    color: #25A94C;
+                    font-size: 0.9375rem;
+                    font-weight: 700;
+                    border-radius: 0;
+                    margin: 0 auto;
+
+                    p {
+                        transform: skew(15deg);
+                    }
+
+                }
+
+                .active {
+                    background: #25A94C;
+                    color: #fff;
+                }
+            }
+        }
+
+        .tab-content {
+
+            .tab-pane {
+
+                .ls-tab-item {
+
+                    .ls-details-item {
+                        margin-bottom: 0.5rem;
+
+                        .ls-img-holder {
+                        
+                            img {
+                                width: 100%;
+                            }
+                        }
+    
+                        .ls-content-details {
+                            width: 95%;
+                            margin: 0.5rem auto 0;
+    
+                            .ls-details-date {
+                                font-size: 0.75rem;
+                                color: #565656;
+                                font-weight: 300;
+                            }
+    
+                            .ls-details-title {
+                                font-size: 0.75rem;
+                                color: #000;
+                                font-weight: 600;
+                            }
+    
+                            .ls-more {
+                                display: block;
+                                font-size: 0.75rem;
+                                color: #25A94C;
+                                font-style: italic;
+                                text-decoration: underline !important;
+                            }
+                        }
+                    }
+                }
+
+                .ls-pagination {
+                    display: flex;
+                    text-align: center;
+                    justify-content: center;
+                    margin: 1rem 0;
+
+                    .ls-pagination-item {
+                        margin: 0 0.5rem;
+                        color: #565656;
+                        font-style: normal;
+                        font-size: 1rem;
+                        font-weight: 700;
+                        padding: 0.2rem 1rem;
+                        transform: skew(-15deg);
+                        background: rgba(37, 169, 76, 0.15);
+
+                        p {
+                            transform: skew(15deg);
+                        }
+                    }
+
+                    .ls-pagination-active {
+                        background: #25A94C;
+                        
+                        a {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ls-news-content {
+        margin: 2rem 0;
+
+        .ls-content-holder {
+    
+            .nav-tabs {
+                border: none;
+                display: flex;
+                justify-content: center;
+                margin: 1rem 0;
+    
+                .nav-item {
+                    margin: 0rem 1rem;
+                    flex: 0 0 35%;
+                  
+                    .nav-link {
+                        width: 100%;
+                        margin: 0 auto;
+    
+                        p {
+                            transform: skew(15deg);
+                        }
+    
+                    }
+                }
+            }
+    
+            .tab-content {
+                margin: 2rem 0;
+    
+                .tab-pane {
+    
+                    .ls-tab-item {
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        grid-gap: 0.8rem;
+    
+                        .ls-details-item {
+                            margin-bottom: 0.5rem;
+    
+                            .ls-img-holder {
+                            
+                                img {
+                                    width: 100%;
+                                }
+                            }
+        
+                            .ls-content-details {
+                                width: 95%;
+                                margin: 0.5rem auto 0;
+        
+                                .ls-details-date {
+                                    font-size: 0.75rem;
+                                    color: #565656;
+                                    font-weight: 300;
+                                }
+        
+                                .ls-details-title {
+                                    font-size: 0.75rem;
+                                    color: #000;
+                                    font-weight: 600;
+                                }
+        
+                                .ls-more {
+                                    display: block;
+                                    font-size: 0.75rem;
+                                    color: #25A94C;
+                                    font-style: italic;
+                                    text-decoration: underline !important;
+                                }
+                            }
+                        }
+                    }
+
+                    .ls-pagination {
+                        display: flex;
+                        text-align: center;
+                        justify-content: center;
+                        margin: 2rem 0;
+    
+                        .ls-pagination-item {
+                            margin: 0 0.5rem;
+                            color: #565656;
+                            font-style: normal;
+                            font-size: 1.25rem;
+                            font-weight: 700;
+                            padding: 0.2rem 1rem;
+                            transform: skew(-15deg);
+                            background: rgba(37, 169, 76, 0.15);
+    
+                            p {
+                                transform: skew(15deg);
+                            }
+                        }
+    
+                        .ls-pagination-active {
+                            background: #25A94C;
+                            
+                            a {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .ls-news-content {
+        margin-bottom: 4rem;
+
+        .ls-content-holder {
+    
+            .nav-tabs {
+                border: none;
+                display: flex;
+                justify-content: center;
+                margin: 1rem 0;
+    
+                .nav-item {
+                    margin: 0rem 1rem;
+                    flex: 0 0 35%;
+                  
+                    .nav-link {
+                        width: 100%;
+                        margin: 0 auto;
+                        font-size: 1.25rem;
+    
+                        p {
+                            transform: skew(15deg);
+                        }
+    
+                    }
+                }
+            }
+    
+            .tab-content {
+                margin: 2rem 0;
+    
+                .tab-pane {
+    
+                    .ls-tab-item {
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        grid-gap: 1.5rem;
+    
+                        .ls-details-item {
+                            margin-bottom: 0.5rem;
+    
+                            .ls-img-holder {
+                            
+                                img {
+                                    width: 100%;
+                                }
+                            }
+        
+                            .ls-content-details {
+                                width: 95%;
+                                margin: 0.5rem auto 0;
+        
+                                .ls-details-date {
+                                    font-size: 0.75rem;
+                                    color: #565656;
+                                    font-weight: 300;
+                                }
+        
+                                .ls-details-title {
+                                    font-size: 0.75rem;
+                                    color: #000;
+                                    font-weight: 600;
+                                }
+        
+                                .ls-more {
+                                    display: block;
+                                    font-size: 0.75rem;
+                                    color: #25A94C;
+                                    font-style: italic;
+                                    text-decoration: underline !important;
+                                }
+                            }
+                        }
+                    }
+
+                    .ls-pagination {
+                        display: flex;
+                        text-align: center;
+                        justify-content: center;
+                        margin: 2rem 0;
+    
+                        .ls-pagination-item {
+                            margin: 0 0.5rem;
+                            color: #565656;
+                            font-style: normal;
+                            font-size: 1.25rem;
+                            font-weight: 700;
+                            padding: 0.2rem 1rem;
+                            transform: skew(-15deg);
+                            background: rgba(37, 169, 76, 0.15);
+    
+                            p {
+                                transform: skew(15deg);
+                            }
+                        }
+    
+                        .ls-pagination-active {
+                            background: #25A94C;
+                            
+                            a {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,131 @@
+.ls-research-heading {
+    margin: 1rem 0;
+
+    .ls-heading-holder {
+
+        .ls-heading {
+            margin-top: 1rem;
+
+            h5 {
+                text-align: center;
+                font-size: 1.5rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #25A94C;
+
+                span {
+                    display: block;
+                }
+            }
+
+            .ls-heading-border {
+                display: block;
+                height: 2px;
+                width: 20%;
+                background: #FF9900;
+                margin: 0.3rem auto 1rem;      
+            }
+        }
+
+        .ls-heading-content {
+
+            p {
+                font-size: 0.9375rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .ls-img-content {
+
+                .ls-img-holder {
+                    width: 85%;
+                    text-align: center;
+                    margin: 0 auto 0.5rem;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .ls-img-description {
+                        margin: 0.3rem auto;
+                        font-size: 0.75rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ls-research-heading {  
+        margin: 2rem 0;
+
+        .ls-heading-holder {
+    
+            .ls-heading {
+    
+                h5 {
+                    font-size: 1.2rem;
+                }
+
+                .ls-heading-border {
+                    margin: 1rem auto;      
+                }
+            }
+    
+            .ls-heading-content {
+    
+                p {
+                    margin-bottom: 1rem;
+                }
+    
+                .ls-img-content {
+    
+                    .ls-img-holder {
+                        margin: 0 auto 1rem;
+    
+                        .ls-img-description {
+                            width: 70%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .ls-research-heading {  
+        margin: 3rem 0;
+
+        .ls-heading-holder {
+    
+            .ls-heading {
+    
+                h5 {
+                    font-size: 2.25rem;
+                }
+            }
+    
+            .ls-heading-content {
+    
+                p {
+                    margin-bottom: 1rem;
+                    line-height: 1.75rem;
+                }
+    
+                .ls-img-content {
+    
+                    .ls-img-holder {
+                        width: 60%;
+                        margin: 0 auto 1rem;
+    
+                        .ls-img-description {
+                            width: 80%;
+                            line-height: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

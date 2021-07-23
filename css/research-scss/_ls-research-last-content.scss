@@ -1,0 +1,53 @@
+.ls-research-last-content {
+    background: #FFF9F0;
+    padding: 2rem 0;
+    margin: 1rem 0;
+
+    .ls-research-last-holder {
+
+        .ls-last-content {
+            padding: 1rem;
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #FF9900;
+            border: 1.5px dashed #FF9900;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ls-research-last-content {
+        background: #FFF9F0;
+        padding: 2rem 0;
+        margin: 2rem 0;
+
+        .ls-research-last-holder {
+    
+            .ls-last-content {
+                padding: 2rem;
+                font-size: 1.125rem;
+                font-weight: 600;
+                color: #FF9900;
+                border: 1.5px dashed #FF9900;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .ls-research-last-content {
+        padding: 2rem 0;
+        margin: 3rem 0;
+
+        .ls-research-last-holder {
+    
+            .ls-last-content {
+                padding: 2rem;
+                font-size: 1.125rem;
+                font-weight: 600;
+                color: #FF9900;
+                border: 1.5px dashed #FF9900;
+            }
+        }
+    }
+}

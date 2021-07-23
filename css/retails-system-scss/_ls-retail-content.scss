@@ -1,0 +1,104 @@
+.ls-retail-content {
+    margin: 1rem 0;
+
+    .ls-content-holder {
+
+        .ls-content-heading {
+
+            h5 {
+                text-align: center;
+                font-size: 1.5rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #25A94C;
+            }
+
+            .ls-heading-border {
+                display: block;
+                height: 2px;
+                width: 20%;
+                background: #FF9900;
+                margin: 0.3rem auto 1rem;      
+            }
+        }
+
+        .ls-content-main {
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ls-retail-content {
+        margin: 2rem 0;
+    
+        .ls-content-holder {
+    
+            .ls-content-heading {
+    
+                h5 {
+                    text-align: center;
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #25A94C;
+                }
+    
+                .ls-heading-border {
+                    display: block;
+                    height: 2px;
+                    width: 20%;
+                    background: #FF9900;
+                    margin: 0.3rem auto 1rem;      
+                }
+            }
+    
+            .ls-content-main {
+                margin: 2rem;
+    
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .ls-retail-content {
+        margin: 3rem 0 5rem;
+    
+        .ls-content-holder {
+    
+            .ls-content-heading {
+    
+                h5 {
+                    text-align: center;
+                    font-size: 2.25rem;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #25A94C;
+                }
+    
+                .ls-heading-border {
+                    display: block;
+                    height: 2px;
+                    width: 20%;
+                    background: #FF9900;
+                    margin: 0.3rem auto 1rem;      
+                }
+            }
+    
+            .ls-content-main {
+                margin: 3rem 0;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
