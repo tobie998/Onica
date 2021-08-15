@@ -1741,7 +1741,7 @@ header .navbar-light .navbar-nav .active > .nav-link, header .navbar-light .navb
   margin: 1rem 0;
 }
 .ls-intro-main-content .ls-intro-main-holder .ls-intro-main-1 .ls-intro-1-left {
-  background: url(../../images/common/intro-main-content-img.png) no-repeat;
+  background: url(../images/common/intro-main-content-img.png) no-repeat;
   background-size: cover;
   padding: 2rem 0;
   margin-bottom: 1rem;
