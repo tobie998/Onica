@@ -1146,7 +1146,7 @@ header .navbar-light .navbar-nav .active > .nav-link, header .navbar-light .navb
   }
 }
 .ls-product-banner {
-  background: url(../../images/banners/product-banner-1.png) no-repeat;
+  background: url(../images/banners/product-banner-1.png) no-repeat;
   background-size: cover;
 }
 .ls-product-banner .text {
@@ -1458,7 +1458,7 @@ header .navbar-light .navbar-nav .active > .nav-link, header .navbar-light .navb
 }
 
 .ls-story-banner {
-  background: url(../../images/banners/story-banner.png) no-repeat;
+  background: url(../images/banners/story-banner.png) no-repeat;
   background-size: cover;
 }
 .ls-story-banner .text {
@@ -2047,7 +2047,7 @@ header .navbar-light .navbar-nav .active > .nav-link, header .navbar-light .navb
   }
 }
 .ls-brand-story-banner {
-  background: url(../../images/banners/brand-story-banner.png) no-repeat;
+  background: url(../images/banners/brand-story-banner.png) no-repeat;
   background-size: cover;
 }
 .ls-brand-story-banner .text {
