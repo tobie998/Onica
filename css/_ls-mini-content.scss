@@ -36,7 +36,7 @@
                     width: 8%;
                 }
 
-                border: none;
+                border: 1px solid #25A94C;
                 outline: none;
                 text-transform: uppercase;
                 color: #fff;
@@ -45,6 +45,7 @@
                 font-size: 0.9rem;
                 vertical-align: middle;
                 border-radius: 81px;
+                transition: all 0.2s ease-in;
                 cursor: pointer;
             }
 
@@ -52,6 +53,7 @@
                 border: 1px solid #25A94C;
                 background-color: #fff;
                 color: #25A94C; 
+                transition: all 0.2s ease;
             }
         }
     }

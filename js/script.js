@@ -1,4 +1,22 @@
 $(document).ready(function($){
+
+    $(".dropdown-detail, .dropdown-detail-1").slideUp(0);
+
+    $(".dropdown").hover(function(){
+
+        $(".dropdown-detail").slideToggle(500);
+        //console.log($(this));
+    });
+
+    $(".dropdown-1").hover(function(){
+
+        $(".dropdown-detail-1").slideToggle(500);
+        //console.log($(this));
+    });
+
+
+
+    //console.log($(".dropdown .dropdown-detail"));
 });
 
 
@@ -7,6 +25,7 @@ const swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
     speed: 300,
     spaceBetween: 200,
+    loop: true,
     navigation: {
         nextEl: '.btn-next',
         prevEl: '.btn-prev',
@@ -45,8 +64,8 @@ const contentMain = document.querySelector(".ls-content-main");
 const btns = document.querySelectorAll(".ls-btn-holder");
 const mainItems = document.querySelectorAll(".ls-main-item");
 
-//console.log(contentMain);
-//console.log(btns);
+console.log(contentMain);
+console.log(btns);
 
 contentMain.addEventListener("click", function(e) {
 
@@ -95,5 +114,19 @@ contentMain2.addEventListener("click", function(e) {
         element.classList.add("main-item-active");
     }
 });
+
+//
+//
+
+var slideIndex = 1;
+//console.log(slideIndex);
+
+
+
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("ls-mySlides");
+    console.log(slides);
+}
 
 

@@ -1,53 +1,56 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charSet="utf-8">
-        <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, user-scalable=1" name="viewport"/>
-        <title>Leadsoft</title>
-        <link rel="shortcut icon" href="images/icon/favicon.ico" />
 
-        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-        <script src="https://kit.fontawesome.com/60c085dbff.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" crossorigin="anonymous" />
-        <link rel="stylesheet" href="swiper/swiper-bundle.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-    
-    <body>    
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, user-scalable=1"
+        name="viewport" />
+    <title>Home</title>
+    <link rel="shortcut icon" href="images/icon/favicon.ico" />
+
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
     <header>
         <section class="ls-pre-header">
             <div class="container">
-               <div class="ls-pre-header-holder">
+                <div class="ls-pre-header-holder">
                     <div class="ls-pre-header-search">
-                        <input type="text" placeholder="Tìm kiếm" >
-                        <i class="las la-search"></i> 
+                        <input type="text" placeholder="Tìm kiếm" />
+                        <i class="las la-search"></i>
                     </div>
-    
+
                     <div class="ls-logo-holder">
                         <a href="#">
-                            <img src="./images/icon/pre-header-icon-1.png" alt="icon">
+                            <img src="./images/icon/pre-header-icon-1.png" alt="icon" />
                         </a>
                     </div>
-    
+
                     <div class="ls-contact">
                         <div class="icon-holder">
-                            <img src="./images/icon/call-1.png" alt="call-icon">
+                            <img src="./images/icon/call-1.png" alt="call-icon" />
                         </div>
-                        <div class="contact-details">
+                        <a href="tel:" class="contact-details">
                             <span>Liên hệ ngay</span>
                             <span class="number">0967901788</span>
-                        </div>
+                        </a>
                     </div>
-               </div>
+                </div>
 
-               <i class="border"></i>
+                <i class="border"></i>
             </div>
         </section>
-       
 
         <nav class="container navbar sticky-top navbar-expand-lg navbar-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -56,8 +59,15 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Trang chủ <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item dropdown">
                         <a class="nav-link" href="./Onica's-story.html">câu chuyện onica</a>
+                        <ul class="dropdown-detail">
+                            <li class="detail-item"><a href="introduction.html">giới thiệu</a></li>
+                            <li class="detail-item"><a href="brand's-story.html">câu chuyện thương hiệu</a></li>
+                            <li class="detail-item"><a href="research.html">quy trình nghiên cứu</a></li>
+                            <li class="detail-item"><a href="ingredients.html">nguyên liệu</a></li>
+                            <li class="detail-item"><a href="producing.html">sản xuất</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./product.html">sản phẩm</a>
@@ -65,11 +75,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./news.html">tin tức & báo chí</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item dropdown-1">
                         <a class="nav-link" href="./question-answer.html">hỏi đáp</a>
+                        <ul class="dropdown-detail-1">
+                            <li class="detail-item"><a href="contact.html">liên hệ</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">hệ thống phân phối</a>
+                        <a class="nav-link" href="retail-system.html">hệ thống phân phối</a>
                     </li>
                 </ul>
             </div>
@@ -77,27 +90,35 @@
     </header>
 
     <section class="ls-banner-1">
-       <div class="ls-img-holder">
-           <img src="./images/banners/banner-1.png" alt="banner-1">
-       </div>
+        <div class="ls-img-holder">
+            <img src="./images/banners/banner-1.png" alt="banner-1" />
+        </div>
     </section>
 
     <section class="ls-mini-content">
         <div class="container container-sm container-md container-lg container-xl">
             <div class="ls-mini-content-holder">
                 <div class="ls-caption">
-                    onica - tinh túy từ tảo 
+                    onica - tinh túy từ tảo
                     <i class="ls-caption-border"></i>
                 </div>
 
                 <div class="ls-content">
-                    <p>ONICA Green Health là sản phẩm tâm huyết, là đứa con tinh thần đầu tiên của TVGPhama, được phối hợp nghiên cứu và sản xuất cùng Công ty TNHH Tư vấn Y Dược Quốc tế IMC, đơn vị có 18 năm kinh nghiệm sản xuất dược phẩm và thực phẩm chức năng với các sản phẩm nổi tiếng như Hoạt Huyết Nhất Nhất, Cốt Thoái Vương, Tràng Phục Linh...
-                        ONICA Green Health là một set sản phẩm gồm: 10 túi nước dinh dưỡng từ tảo (ONICA Nutrition Drink) và 10 viên năng lượng (ONICA Energy Tablets).</p>
+                    <p>
+                        ONICA Green Health là sản phẩm tâm huyết, là đứa con tinh thần đầu
+                        tiên của TVGPhama, được phối hợp nghiên cứu và sản xuất cùng Công
+                        ty TNHH Tư vấn Y Dược Quốc tế IMC, đơn vị có 18 năm kinh nghiệm
+                        sản xuất dược phẩm và thực phẩm chức năng với các sản phẩm nổi
+                        tiếng như Hoạt Huyết Nhất Nhất, Cốt Thoái Vương, Tràng Phục
+                        Linh... ONICA Green Health là một set sản phẩm gồm: 10 túi nước
+                        dinh dưỡng từ tảo (ONICA Nutrition Drink) và 10 viên năng lượng
+                        (ONICA Energy Tablets).
+                    </p>
                 </div>
 
                 <div class="ls-content-btn">
                     <button>
-                        <img src="./images/icon/return.png" alt="return-icon">
+                        <img src="./images/icon/return.png" alt="return-icon" />
                         tìm hiểu thêm
                     </button>
                 </div>
@@ -109,9 +130,9 @@
         <div class="container container-sm container-md container-lg container-xl">
             <div class="ls-content-1-holder">
                 <div class="ls-content-1-item">
-                    <div class="ls-img-holder">
-                        <img src="./images/common/cong-dung-1-1.png" alt="công dụng">
-                    </div>
+                    <a href="#" class="ls-img-holder">
+                        <img src="./images/common/cong-dung-1-1.png" alt="công dụng" />
+                    </a>
 
                     <div class="ls-item-details">
                         <a href="#" class="ls-details-header">
@@ -121,11 +142,16 @@
 
                         <div class="ls-details-text">
                             <p>
-                                <strong><i>ONICA Green Health</i></strong> là một set sản phẩm gồm: 10 túi nước dinh dưỡng từ tảo <strong><i>(ONICA Nutrition Drink)</i></strong> và 10 viên năng lượng <strong><i> (ONICA Energy Tablets)</i></strong>.
+                                <strong><i>ONICA Green Health</i></strong> là một set sản phẩm
+                                gồm: 10 túi nước dinh dưỡng từ tảo
+                                <strong><i>(ONICA Nutrition Drink)</i></strong> và 10 viên
+                                năng lượng <strong><i> (ONICA Energy Tablets)</i></strong>.
                             </p>
 
                             <p>
-                                Sản phẩm này có nguyên liệu chính là Tảo N.Oceanica, một loại tảo mới ở Việt Nam, được nuôi trồng tại Hải Phòng và là công trình nghiên cứu được Bộ Khoa học & Công nghệ chứng nhận.
+                                Sản phẩm này có nguyên liệu chính là Tảo N.Oceanica, một loại
+                                tảo mới ở Việt Nam, được nuôi trồng tại Hải Phòng và là công
+                                trình nghiên cứu được Bộ Khoa học & Công nghệ chứng nhận.
                             </p>
 
                             <a href="#">
@@ -133,7 +159,7 @@
                             </a>
 
                             <button>
-                                <img src="./images/icon/return.png" alt="return">
+                                <img src="./images/icon/return.png" alt="return" />
                                 đăng ký làm nhà phân phối
                             </button>
                         </div>
@@ -141,9 +167,9 @@
                 </div>
 
                 <div class="ls-content-1-item">
-                    <div class="ls-img-holder">
-                        <img src="./images/common/cong-dung-2.png" alt="công dụng">
-                    </div>
+                    <a href="#" class="ls-img-holder">
+                        <img src="./images/common/cong-dung-2.png" alt="công dụng" />
+                    </a>
 
                     <div class="ls-item-details">
                         <a href="#" class="ls-details-header">
@@ -153,11 +179,15 @@
 
                         <div class="ls-details-text">
                             <p>
-                                Nước tảo ONICA Nutrition Drink có thành phần chính là Canxi hữu cơ và tảo Nannochloropsis oceanica.                            
+                                Nước tảo ONICA Nutrition Drink có thành phần chính là Canxi
+                                hữu cơ và tảo Nannochloropsis oceanica.
                             </p>
 
                             <p>
-                                TVGPhama đã kế thừa kết quả nghiên cứu của một số đề tài nghiên cứu khoa học cấp nhà nước trong nghiên cứu nuôi trồng tảo Nannochloropsis và nghiên cứu ra thức uống giàu dinh dưỡng này.
+                                TVGPhama đã kế thừa kết quả nghiên cứu của một số đề tài
+                                nghiên cứu khoa học cấp nhà nước trong nghiên cứu nuôi trồng
+                                tảo Nannochloropsis và nghiên cứu ra thức uống giàu dinh dưỡng
+                                này.
                             </p>
 
                             <a href="#">
@@ -165,7 +195,7 @@
                             </a>
 
                             <button>
-                                <img src="./images/icon/return.png" alt="return">
+                                <img src="./images/icon/return.png" alt="return" />
                                 đăng ký làm nhà phân phối
                             </button>
                         </div>
@@ -173,9 +203,9 @@
                 </div>
 
                 <div class="ls-content-1-item">
-                    <div class="ls-img-holder">
-                        <img src="./images/common/cong-dung-3.png" alt="công dụng">
-                    </div>
+                    <a href="#" class="ls-img-holder">
+                        <img src="./images/common/cong-dung-3.png" alt="công dụng" />
+                    </a>
 
                     <div class="ls-item-details">
                         <a href="#" class="ls-details-header">
@@ -185,11 +215,14 @@
 
                         <div class="ls-details-text">
                             <p>
-                                Viên năng lượng là sản phẩm sáng tạo của TVGPhama. Nếu như Nước tảo có tác dụng hỗ trợ về sức bền thì Viên năng lượng hỗ trợ về sức mạnh nhanh chóng hơn cho người sử dụng.
+                                Viên năng lượng là sản phẩm sáng tạo của TVGPhama. Nếu như
+                                Nước tảo có tác dụng hỗ trợ về sức bền thì Viên năng lượng hỗ
+                                trợ về sức mạnh nhanh chóng hơn cho người sử dụng.
                             </p>
 
                             <p class="last-p">
-                                Viên năng lượng ONICA Energy Tablets giúp bạn tràn đầy năng lượng và tỉnh táo mỗi ngày.
+                                Viên năng lượng ONICA Energy Tablets giúp bạn tràn đầy năng
+                                lượng và tỉnh táo mỗi ngày.
                             </p>
 
                             <a href="#">
@@ -197,7 +230,7 @@
                             </a>
 
                             <button>
-                                <img src="./images/icon/return.png" alt="return">
+                                <img src="./images/icon/return.png" alt="return" />
                                 đăng ký làm nhà phân phối
                             </button>
                         </div>
@@ -217,45 +250,55 @@
 
                 <div class="ls-content-2-details">
                     <div class="ls-img-holder">
-                        <img src="./images/common/content-2-img.png" alt="hộp tảo">
+                        <img src="./images/common/content-2-img.png" alt="hộp tảo" />
                     </div>
 
                     <div class="ls-details-main">
                         <div class="ls-main-item">
                             <div class="ls-item-img-holder">
-                                <img src="./images/icon/002-sun.png" alt="sun">
+                                <img src="./images/icon/002-sun.png" alt="sun" />
                             </div>
 
                             <div class="ls-item-text">
                                 <a href="#"> Tăng cường sản sinh năng lượng</a>
                                 <p>
-                                    ONICA tham gia vào quá trình chuyển hóa lipid, thúc đẩy sản sinh năng lượng nhanh chóng và hiệu quả hơn, giúp bạn cảm thấy tràn đầy năng lượng khi tham gia các hoạt động thể chất như thể thao, du lịch, đi lại nhiều...
+                                    ONICA tham gia vào quá trình chuyển hóa lipid, thúc đẩy sản
+                                    sinh năng lượng nhanh chóng và hiệu quả hơn, giúp bạn cảm
+                                    thấy tràn đầy năng lượng khi tham gia các hoạt động thể chất
+                                    như thể thao, du lịch, đi lại nhiều...
                                 </p>
                             </div>
                         </div>
 
                         <div class="ls-main-item">
                             <div class="ls-item-img-holder">
-                                <img src="./images/icon/guard-icon.png" alt="guard">
+                                <img src="./images/icon/guard-icon.png" alt="guard" />
                             </div>
 
                             <div class="ls-item-text">
-                                <a href="#"> Nâng cao sức đề kháng và hệ miễn dịch </a> 
+                                <a href="#"> Nâng cao sức đề kháng và hệ miễn dịch </a>
                                 <p>
-                                    Không những chứa nhiều axit amin và chất khoáng tốt cho cơ thể, ONICA còn chứa có tác dụng tăng cường miễn dịch, nâng cao sức khỏe, giúp bạn giảm khả năng mắc các bệnh do các tác động xấu của môi trường.
+                                    Không những chứa nhiều axit amin và chất khoáng tốt cho cơ
+                                    thể, ONICA còn chứa có tác dụng tăng cường miễn dịch, nâng
+                                    cao sức khỏe, giúp bạn giảm khả năng mắc các bệnh do các tác
+                                    động xấu của môi trường.
                                 </p>
                             </div>
                         </div>
 
                         <div class="ls-main-item">
                             <div class="ls-item-img-holder">
-                                <img src="./images/icon/006-happy.png" alt="happy">
+                                <img src="./images/icon/006-happy.png" alt="happy" />
                             </div>
 
                             <div class="ls-item-text">
-                                <a href=""> Tăng cường sự tỉnh táo, hỗ trợ tuần hoàn máu và não bộ</a>
+                                <a href="">
+                                    Tăng cường sự tỉnh táo, hỗ trợ tuần hoàn máu và não bộ</a>
                                 <p>
-                                    ONICA kích thích hệ thần kinh, giúp phục hồi, làm lá chắn cho hệ miễn dịch, giúp tăng cường sự tỉnh táo mà không cần sử dụng các chất kích thích hay thức uống có đường.                                </p>
+                                    ONICA kích thích hệ thần kinh, giúp phục hồi, làm lá chắn
+                                    cho hệ miễn dịch, giúp tăng cường sự tỉnh táo mà không cần
+                                    sử dụng các chất kích thích hay thức uống có đường.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -274,23 +317,23 @@
 
                 <div class="ls-content-3-main">
                     <div class="ls-img-holder">
-                        <img src="./images/common/certificate.png" alt="certificate">
+                        <img src="./images/common/certificate.png" alt="certificate" />
                     </div>
 
                     <div class="ls-img-holder">
-                        <img src="./images/common/certificate.png" alt="certificate">
+                        <img src="./images/common/certificate.png" alt="certificate" />
                     </div>
 
                     <div class="ls-img-holder">
-                        <img src="./images/common/certificate.png" alt="certificate">
+                        <img src="./images/common/certificate.png" alt="certificate" />
                     </div>
 
                     <div class="ls-img-holder">
-                        <img src="./images/common/certificate.png" alt="certificate">
+                        <img src="./images/common/certificate.png" alt="certificate" />
                     </div>
 
                     <div class="ls-img-holder">
-                        <img src="./images/common/certificate.png" alt="certificate">
+                        <img src="./images/common/certificate.png" alt="certificate" />
                     </div>
                 </div>
             </div>
@@ -309,23 +352,35 @@
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <iframe src="https://www.youtube.com/embed/xieIa4-8uWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <p>CA SĨ NGUYỄN A CHIA SẺ SAU
-                                    MỘT THỜI GIAN SỬ DỤNG NƯỚC TẢO ONICA
+                                <iframe src="https://www.youtube.com/embed/xieIa4-8uWM" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                <p>
+                                    CA SĨ NGUYỄN A CHIA SẺ SAU MỘT THỜI GIAN SỬ DỤNG NƯỚC TẢO
+                                    ONICA
                                 </p>
                             </div>
 
                             <div class="swiper-slide">
-                                <iframe src="https://www.youtube.com/embed/xieIa4-8uWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <p>CA SĨ NGUYỄN A CHIA SẺ SAU
-                                    MỘT THỜI GIAN SỬ DỤNG NƯỚC TẢO ONICA
+                                <iframe src="https://www.youtube.com/embed/xieIa4-8uWM" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                <p>
+                                    CA SĨ NGUYỄN A CHIA SẺ SAU MỘT THỜI GIAN SỬ DỤNG NƯỚC TẢO
+                                    ONICA
                                 </p>
                             </div>
-                            
+
                             <div class="swiper-slide">
-                                <iframe src="https://www.youtube.com/embed/xieIa4-8uWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <p>CA SĨ NGUYỄN A CHIA SẺ SAU
-                                    MỘT THỜI GIAN SỬ DỤNG NƯỚC TẢO ONICA
+                                <iframe src="https://www.youtube.com/embed/xieIa4-8uWM" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                <p>
+                                    CA SĨ NGUYỄN A CHIA SẺ SAU MỘT THỜI GIAN SỬ DỤNG NƯỚC TẢO
+                                    ONICA
                                 </p>
                             </div>
                         </div>
@@ -341,18 +396,19 @@
         <div class="container container-sm container-md container-lg container-xl">
             <div class="ls-pre-footer-holder">
                 <div class="ls-img-holder">
-                    <img src="./images/common/pre-footer.png" alt="couple">
+                    <img src="./images/common/pre-footer.png" alt="couple" />
                 </div>
 
                 <div class="ls-pre-footer-form">
                     <h5>
-                       bạn đang có nhu cầu <span>làm nhà phân phối?</span> vui lòng để lại thông tin tại đây
+                        bạn đang có nhu cầu <span>làm nhà phân phối?</span> vui lòng để
+                        lại thông tin tại đây
                     </h5>
                     <form>
-                        <input type="text" placeholder="Họ và tên*" class="red-text">
-                        <input type="text" placeholder="Số điện thoại*" class="red-text">
-                        <input type="text" placeholder="Email">
-                        <input type="text" placeholder="Địa chỉ">
+                        <input type="text" placeholder="Họ và tên*" class="red-text" />
+                        <input type="text" placeholder="Số điện thoại*" class="red-text" />
+                        <input type="text" placeholder="Email" />
+                        <input type="text" placeholder="Địa chỉ" />
                         <textarea name="Nội dung" id="" placeholder="Nội dung"></textarea>
                         <button>Liên hệ lại với tôi</button>
                     </form>
@@ -361,7 +417,6 @@
         </div>
     </section>
 
-   
     <footer class="ls-site-footer">
         <div class="container container-sm container-md container-lg container-xl">
             <div class="ls-footer-holder">
@@ -371,40 +426,47 @@
                     </div>
 
                     <div class="ls-datetime-working-day">
-                        Thứ 2 - Thứ 6: <span>8h - 17h30</span>/ Thứ 7: <span>8h - 12h</span>
+                        Thứ 2 - Thứ 6: <span>8h - 17h30</span>/ Thứ 7:
+                        <span>8h - 12h</span>
                     </div>
 
-                    <div class="ls-datetime-contact"><i class="fas fa-envelope"></i>liên hệ</div>
+                    <a href="mailto:" class="ls-datetime-contact"><i class="fas fa-envelope"></i>liên hệ</a>
                 </div>
                 <i class="ls-footer-datetime-border"></i>
 
                 <div class="ls-main-footer">
                     <div class="ls-left-main-ft">
                         <div class="ls-img-holder">
-                            <img src="./images/common/footer-logo.png" alt="footer-logo">
+                            <img src="./images/common/footer-logo.png" alt="footer-logo" />
                         </div>
                         <h5>công ty cổ phần dược phẩm tvg</h5>
                         <p>Công ty thành viên thuộc TAM VƯƠNG GROUP</p>
                         <div class="ls-company-contact">
-                            <p><i class="fas fa-map-marker-alt"></i>P301, tầng 3, TTTM, CC Học viện Quốc Phòng, P. Xuân La, Q. Tây Hồ, TP. Hà Nội.</p>
-                            <p><i class="fas fa-phone-alt"></i>(024)73 082 889    *    Hotline: 0967 901 788 (24/7)</p>
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i>P301, tầng 3, TTTM, CC
+                                Học viện Quốc Phòng, P. Xuân La, Q. Tây Hồ, TP. Hà Nội.
+                            </p>
+                            <p>
+                                <i class="fas fa-phone-alt"></i>(024)73 082 889 * Hotline:
+                                0967 901 788 (24/7)
+                            </p>
                             <p><i class="fas fa-envelope"></i>contact@phama.vn</p>
                         </div>
 
                         <div class="ls-follow-us">
                             <h5>Theo dõi chúng tôi tại</h5>
                             <div class="ls-social-icon">
-                                <div class="ls-img-holder">
-                                    <img src="./images/icon/fb-icon.png" alt="fb-icon">
-                                </div>
+                                <a href="#" class="ls-img-holder">
+                                    <img src="./images/icon/fb-icon.png" alt="fb-icon" />
+                                </a>
 
-                                <div class="ls-img-holder">
-                                    <img src="./images/icon/shopee-icon.png" alt="shopee-icon">
-                                </div>
+                                <a href="#" class="ls-img-holder">
+                                    <img src="./images/icon/shopee-icon.png" alt="shopee-icon" />
+                                </a>
 
-                                <div class="ls-img-holder">
-                                    <img src="./images/icon/utube-icon.png" alt="utube-icon">
-                                </div>
+                                <a href="#" class="ls-img-holder">
+                                    <img src="./images/icon/utube-icon.png" alt="utube-icon" />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -432,7 +494,7 @@
 
                         <div class="ls-right-main-form">
                             <form>
-                                <input type="text" placeholder="Nhập email để nhận bản tin hữu ích từ Onica">
+                                <input type="text" placeholder="Nhập email để nhận bản tin hữu ích từ Onica" />
                                 <button>Đăng ký</button>
                             </form>
                         </div>
@@ -442,10 +504,11 @@
         </div>
     </footer>
 
-
     <script src="js/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/60c085dbff.js" crossorigin="anonymous"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="swiper/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
-    </body>
+</body>
+
 </html>

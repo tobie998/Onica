@@ -4,13 +4,39 @@
     .ls-gallery-holder{
 
         .ls-gallery-right {
+            position: relative;
+            padding: 2rem;
 
-            .ls-img-holder {
-                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-                background: #fff;
+            .ls-mySlides {
+                display: none;
+            }
 
-                img {
-                    width: 100%;
+            .ls-btn {
+                position: absolute;
+                bottom: 12%;
+                cursor: pointer;
+            }
+
+            .ls-btn-prev {
+                left: 2%;
+            }
+
+            .ls-btn-next {
+                right: 2%;
+            }
+
+            .ls-thumbnail-img {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-gap: 1rem;
+
+                .ls-thumbnail-item {
+                    padding: 0.2rem;
+                    border: 1px solid #e5e5e5;
+                }
+
+                .ls-thumbnail-item-active {
+                    border: 1px solid #3BAB5D;
                 }
             }
         }

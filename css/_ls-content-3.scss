@@ -35,10 +35,12 @@
 
                     img {
                         width: 150%;
+                        transition: all 0.3s ease;
                     }
 
                     img:hover {
                         transform: scale(1.05);
+                        transition: all 0.3s ease-out;
                     }
                 }
 

@@ -45,7 +45,7 @@
                         text-transform: uppercase;
                         text-align: center;
                         margin: 0.8rem auto;
-                        border: none;
+                        border: 1px solid #FF9900;
                         outline: none;
                         padding: 0.5rem 0.8rem;
                         color: #fff;
@@ -53,12 +53,14 @@
                         background-color: #FF9900;
                         border-radius: 81px;
                         cursor: pointer;
+                        transition: all 0.3s ease-in;
                     }
 
                     button:hover {
                         color: #ff9900;
                         background-color: #fff;
                         border: 1px solid #ff9900;
+                        transition: all 0.3s ease;
                     }
                 }
             }
@@ -78,7 +80,19 @@
                 .ls-img-holder {
                     flex: 0 0 50%;
                     margin-right: 1rem;
+                    cursor: pointer;
 
+                    img {
+                        transition: all 0.3s ease-in;
+                    }
+                }
+
+                .ls-img-holder:hover {
+
+                    img {
+                        transform: scale(0.95);
+                        transition: all 0.3s ease;
+                    }
                 }
     
                 .ls-item-details {

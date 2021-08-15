@@ -8,6 +8,7 @@
             border-radius: 10px;
             height: 21.25rem;
             margin-bottom: 1rem;
+            overflow: hidden;
 
             .ls-item-heading {
                 display: flex;
@@ -42,6 +43,15 @@
 
                 img {
                     width: 100%;
+                    transition: all 0.3s ease;
+                }
+            }
+
+            .ls-item-img:hover {
+
+                img {
+                    transform: scale(1.05);
+                    transition: all 0.3s ease-in;
                 }
             }
 

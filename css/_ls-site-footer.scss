@@ -1,4 +1,5 @@
 .ls-site-footer {
+    padding-bottom: 1rem;
 
     .ls-footer-holder {
 
@@ -35,11 +36,18 @@
                 padding: 0.3rem;
                 border: 1px solid #565656;
                 margin: 0.5rem auto 0;
+                transition: all 0.3s ease;
                 
-
                 i {
                     margin-right: 0.5rem;
                 }
+            }
+
+            .ls-datetime-contact:hover {
+                color: #fff;
+                background: #25A94C;
+                border: 1px solid #25A94C;
+                transition: all 0.3s ease-in-out;
             }
 
             div:not(:nth-child(3)) {
@@ -98,10 +106,17 @@
 
                         .ls-img-holder {
                             display: inline-block;
+                            opacity: 0.8;
+                            transition: all 0.2s ease;
 
                             img {
                                 width: 50%;
                             }
+                        }
+
+                        .ls-img-holder:hover {
+                            opacity: 1;
+                            transition: all 0.2s ease-in;
                         }
                     }
                 }
